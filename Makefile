@@ -4,11 +4,11 @@ help:
 	@echo ""
 	@echo "-- Help Menu"
 	@echo ""  Add your files to file1.mp3 and file2.mp3 right here in the base of the gitrepo
-	@echo "   1. make mp3       - your file will be in /tmp/out.mp3
+	@echo "   1. make run       - your file will be in /tmp/out.mp3
 
 build: builddocker beep
 
-mp3: rundocker beep
+run: rundocker beep
 
 rundocker:
 	@docker run --name=soxmerge \

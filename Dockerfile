@@ -8,6 +8,7 @@ RUN apt-get -y upgrade
 
 # Basic Requirements
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y --force-yes install sox
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y --force-yes install libsox-fmt-mp3
 
 RUN apt-get clean
 
