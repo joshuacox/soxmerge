@@ -1,7 +1,7 @@
 # soxmerge
 Merge two audio files using Sox and put them output in /tmp/out.mp3
 
-# usage
+### usage
 copy two mp3 files into the base dir of the repo, name them file1.mp3 and file2.mp3 then run
 ```
 make build
